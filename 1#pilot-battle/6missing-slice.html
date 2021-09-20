@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>missing-slice</title>
+</head>
+<body>
+    <div>
+        <div class="quarter"id="first-quarter"></div>
+        <div class="quarter"id="second-quarter"></div>
+        <div class="quarter"id="third-quarter"></div>
+      </div>
+      <style>
+          div{
+  background-color:#E3516E;
+  height:400px;
+  width:500px;
+}
+.quarter{
+  height:100px;
+  width:100px;
+  border-radius:0px 0px 100% 0px;
+}
+#first-quarter{
+  background-color:#51B5A9;
+  transform:rotate(180deg);
+  position:absolute;
+  left:100px;
+  top:100px;
+    
+}
+#second-quarter{
+  background-color:#FADE8B;
+  transform:rotate(270deg);
+  position:absolute;
+  left:200px;
+  top:100px;
+}
+#third-quarter{
+  background-color:#F7F3D7;
+  transform:rotate(90deg);
+  position:absolute;
+  left:100px;
+  top:200px;
+}
+      </style>
+</body>
+</html>

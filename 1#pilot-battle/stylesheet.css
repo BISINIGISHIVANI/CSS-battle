@@ -14,14 +14,12 @@
     top:50%;
     left:40px;
   }
-  .box-2{
-    transform:rotate(180deg)
-  }
   .box-1{
     position:absolute;
     left:20%;
   }
   .box-2{
+    transform:rotate(180deg);
      position:absolute;
     left:32.5%;
     top:100px;
