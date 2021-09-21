@@ -1,0 +1,32 @@
+div{
+    background-color:#E3516E;
+    height:400px;
+    width:500px;
+  }
+  .quarter{
+    height:100px;
+    width:100px;
+    border-radius:0px 0px 100% 0px;
+  }
+  #first-quarter{
+    background-color:#51B5A9;
+    transform:rotate(180deg);
+    position:absolute;
+    left:100px;
+    top:100px;
+      
+  }
+  #second-quarter{
+    background-color:#FADE8B;
+    transform:rotate(270deg);
+    position:absolute;
+    left:200px;
+    top:100px;
+  }
+  #third-quarter{
+    background-color:#F7F3D7;
+    transform:rotate(90deg);
+    position:absolute;
+    left:100px;
+    top:200px;
+  }
