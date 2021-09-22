@@ -1,8 +1,16 @@
 ol>li{
     font-size: 34px;
     font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-    color:rgb(192, 31, 120);
     margin-left: 20px;
 
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: rgb(138, 113, 117);
+    border:1px solid yellowgreen;
 }
