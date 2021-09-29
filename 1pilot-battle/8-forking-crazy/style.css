@@ -1,0 +1,38 @@
+#container{
+    background-color:#6592CF;
+    width:300px;
+    height:260px;
+    position:relative;
+  }
+  .tins{
+    width:12.6px;
+    height:100px;
+    background-color:#060F55;
+    border-radius:20px 20px 0px 0px;
+    display:inline-block;
+    margin-left:-4px;
+  }
+  #tins1{
+    background-color:#6592CF;
+    border-radius:20px 20px;
+    height:102px;
+    
+  }
+  #bottomPart{
+    width:88px;
+    height:70px;
+    background-color:#060F55;
+    border-radius:0px 0px 50px 50px;
+    margin:0px auto;
+  }
+  #handle{
+    width:15px;
+    height:80px;
+    background-color:#060F55;
+    margin:0px auto;
+  }
+  .tins,#tins1{
+    position:relative;
+    left:110px;
+    top:10px;
+  }
