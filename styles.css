@@ -1,8 +1,31 @@
+.test{
+color:tomato;
+cursor: pointer;
+}
 ol>li{
     font-size: 34px;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 20px;
+    margin-left: 40px;
+    
 
+}
+.left-side{
+    width:50%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.right-side{
+    margin:0 auto;
+  background-color: yellow
+  ;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width:50%;
 }
 h1{
     font-size: 40px;
@@ -12,4 +35,8 @@ h1{
 a{
     text-decoration: none;
     color: rgb(138, 113, 117);
+}
+#sub-heading{
+    font-family: 'Times New Roman', Times, serif;
+
 }
