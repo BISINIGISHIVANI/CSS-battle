@@ -1,0 +1,55 @@
+#container{
+    width:500px;
+    height:400px;
+    background-color:#191210;
+    position:relative;
+  }
+  #circle-outer-most{
+    width:150px;
+    height:150px;
+    background-color:#ECA03D;
+    position:absolute;
+    top:30%;
+    left:30%;
+  }
+  .circle{
+    border-radius:50% 50%;
+  }
+  #circle-outer{
+    width:110px;
+    height:110px;
+    background-color:#191210;
+    position:absolute;
+    top:20px;
+    left:20px;
+  }
+  #circle-inner{
+     width:60px;
+    height:60px;
+    background-color:#84271C;
+    position:absolute;
+    top:28px;
+    left:25px;
+  }
+  
+  #half-circle-one{
+     
+   position:absolute;
+    top:180px;
+    left:61px;
+    transform:rotate(180deg);
+    }
+  #half-circle-two{
+     
+    position:absolute;
+    top:145px;
+    left:280px;
+  }
+  .half-circle{
+    width:70px;
+    height:35px;
+    background-color:#191210;
+   border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 20px solid #ECA03D;
+  border-bottom: 0;
+  }

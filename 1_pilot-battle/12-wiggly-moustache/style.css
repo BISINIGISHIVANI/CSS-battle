@@ -1,0 +1,54 @@
+#container{
+    width:500px;
+    height:400px;
+    background-color:#F5D6B4;
+    position:relative;
+   }
+  #semi-circle,#semi-circle-one{
+    width:70px;
+    height:35px;
+    border:25px solid #D86F45;
+    border-radius:0px 0px 50% 50%/0px 0px 100% 100%;
+    border-top:0px;
+  }
+  #semi-circle-two{
+   width:70px;
+    height:35px;
+    border:25px solid #D86F45;
+    border-radius:50% 50% 0 0/100% 100% 0 0;
+    border-bottom:0px; 
+  }
+  
+  #semi-circle-one{
+    position:absolute;
+    position:absolute;
+    top:150px;
+    left:240px;
+    
+  }
+  #semi-circle-two{
+    position:absolute;
+    top:100px;
+    left:145px;
+  }
+  #semi-circle{
+    position:absolute;
+    top:150px;
+    left:50px;
+  }
+  #semi-up,#semi-down{
+   width:25px;
+    height:12.5px;
+    background-color:#D86F45;
+    border-radius:50% 50% 0 0/100% 100% 0 0;
+  }
+  #semi-up{
+    position:absolute;
+    top:138px;
+    left:50px;
+  }
+  #semi-down{
+    position:absolute;
+    top:138px;
+    left:335.5px;
+  }
