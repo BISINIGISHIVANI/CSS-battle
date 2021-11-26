@@ -1,0 +1,11 @@
+#container{
+    width:500px;
+    height:400px;
+    background-color:#0B2429;
+  }
+  #tri-angle{
+    width:0px;
+    height:0px;
+    border-top:150px solid #F3AC3C;
+    border-right:150px solid transparent;
+  }
