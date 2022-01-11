@@ -1,0 +1,41 @@
+#section{
+    width: 400px;;
+    height: 400px;
+    background-color: #0b2429;
+    position: relative;
+}
+#section-inn{
+    width:200px;
+    height:200px;
+    background-color: #998235;
+    border-radius: 50% 0 50% 0;
+    transform: rotate(45deg);
+    margin-bottom: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+#sec-inn-one{
+    width: 150px;
+    height:150px;
+    background-color:#f3ac3c;
+    border-radius: 50%;
+    
+}
+#sec-inn-two{
+    width: 180px;
+    height:180px;
+    background-color: #0b2429;
+    border-radius: 50%;
+    
+    
+}
+#sec-small{
+    width:100px;
+    height:100px;
+    background-color: #0b2429;
+    border-radius: 50%;
+    
+
+}
